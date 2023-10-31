@@ -102,6 +102,52 @@ function test()
 ![image](https://github.com/sahrul180304/lab5web/assets/115526901/d2e6fb8b-f932-4588-841c-cee2e6684292)
 
 
+# pembuatan from input
+```
+from input
+```
+![image](https://github.com/sahrul180304/lab5web/assets/115526901/1de59266-e5aa-439d-8239-67d5dd51f018)
+
+```
+from button
+<!DOCTYPE html>
+<html>
+<head>
+<title>objeck document</title>
+</head>
+<body>
+  <script language="javascript">
+  <!--
+    function ubahwarnaLB(warna) {
+      document.bgColor = warna;
+    }
+    function ubahwarnaLD(warna) {
+      document.fgColor = warna;
+    }
+    //-->
+    </script>
+<h1>tes</h1>
+<form>
+  <input type="button" value="LATAR BELAKANG HIJAU"
+   onCLICK="ubahwarnaLB('GREEN')">
+  <input type="button" value="LATAR BELAKANG PUTIH"
+   onCLICK="ubahwarnaLB('WHITE')">
+   <input type="button" value="Teks Kuning"
+   onCLICK="ubahwarnaLD('YELLOW')">
+   <input type="button" value="Teks Biru"
+   onCLICK="ubahwarnaLD('BLUE')">
+</form>
+<script language = "javascript">
+  <!--
+  document.write("Dimodifikasi terakhir pada" + document.LastModified);
+  //-->
+</script>
+</body>
+</html>
+```
+![image](https://github.com/sahrul180304/lab5web/assets/115526901/74cea425-79a9-430c-803b-b8110e2e4212)
+![image](https://github.com/sahrul180304/lab5web/assets/115526901/99b5e2d0-1f19-4949-a9bd-926a31e9849b)
+
 
 
 
